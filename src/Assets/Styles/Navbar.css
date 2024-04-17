@@ -1,0 +1,20 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.Nav{
+    background-color: rgb(8, 3, 50);
+    height: 50px;
+    
+ }
+
+  .links {
+ margin-left: 68%;
+}
+ 
+ .links a{
+  padding-left: 5%;
+  margin-top: 5%;
+  color: rgb(245, 247, 246);
+font-weight:600;
+  }

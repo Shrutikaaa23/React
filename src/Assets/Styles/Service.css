@@ -1,0 +1,47 @@
+
+.heading h1{ 
+   
+   
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.whole{
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+  margin-left: 14%;
+  text-align: center;
+  margin-top: 5%;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 14%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; 
+  
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    height: 230px;
+    width: 20%;
+    margin-left: 5%;
+    border: 2px solid black;
+    background-color: rgb(204, 220, 205);
+  
+}
+.box1 i,.box2 i,.box3 i,.box4 i,.box5 i,.box6 i{
+    margin-top: 5%; 
+}
+.box1 h1,.box2 h1,.box3 h1,.box4 h1,.box5 h1,.box6 h1{
+font-size: 19px;
+color: rgb(3, 36, 18);
+}

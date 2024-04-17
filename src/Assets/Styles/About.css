@@ -1,0 +1,57 @@
+.box{
+    margin-left: 15%;
+    margin-top: 2%;
+    background-color: rgb(219, 236, 219);
+    width: 70%;
+    height: 490px;
+    border: 2px solid black;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+}
+.box p{
+    margin-left: 8%;
+   padding-top: 1%;
+}
+.box h1{
+    margin-left: 8%;
+}
+.col h1{
+    color: rgb(6, 65, 36);
+ 
+ 
+}
+.image img{
+    height: 300px;
+    width: 240px;
+    margin-left: -128%;
+    margin-top: 22%;
+    border-radius: 88px;
+    animation: slide 5s ease-out;
+}
+
+
+.findme{
+    margin-top: 9%;
+    padding-left: 13%;
+}
+.findmee p{
+    padding-left: 41%;
+}
+.findme p{
+    margin-left: 40%;
+}
+.btn{
+    padding-left: 48%;
+   
+}
+.btn button{
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+
+   
+

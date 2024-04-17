@@ -1,0 +1,110 @@
+*{
+    text-decoration: none;}
+    body{
+        background-color:rgb(197, 231, 205);
+   overflow-x: hidden;
+}
+   
+.main{
+    background-color: rgb(235, 239, 243);
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 11%;
+    height: 100%;
+    border: 3px solid black;
+   
+   
+}
+.headingg h1{
+    margin-left: 40%;
+    background-color: rgb(235, 239, 243);
+    font-size: 50px;
+   
+   
+  
+   
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 3%;
+    width: 20%;
+    /* animation-name: example; */
+    /* animation-duration: 2s; */
+    /* animation-iteration-count:infinite; */
+  
+  
+}
+.details label{
+    padding: 5px;
+    font-size: 25px;
+    padding-top: 10px;
+   
+  
+    
+}
+.details input{
+   background-color:rgb(197, 231, 205);
+    height: 39px;
+    width: 150%;
+    border: 2PX solid rgb(7, 7, 7);
+    border-radius: 15PX;
+
+}
+.details textarea{
+    border: 2PX solid rgb(7, 7, 7);
+    border-radius: 15PX;
+    height: 143px;
+    width: 350px;
+
+}
+.details ::placeholder{
+   color: rgb(11, 11, 11);
+   
+  
+  
+}
+.details input text{
+    color: rgb(35, 151, 151);
+    
+}
+textarea{
+    background-color:rgb(197, 231, 205);
+   
+}
+.photo img{
+    height: 400px;
+    width: 380px;
+    margin-left: 60%;
+    margin-top: -55%;
+    animation: slide 5s ease-out;
+    /* bottom: 15%; */
+    /* position: absolute; */
+    /* -webkit-animation: linear infinite alternate; */
+    /* -webkit-animation-name: run; */
+    /* -webkit-animation-duration: 9s; */
+
+   
+    
+   
+}
+.send{
+    margin-left: 20%;
+    background-color:  rgb(235, 239, 243);
+    margin-bottom: 5%;
+    margin-top: 0%;
+    
+}
+.send button{
+    color: rgb(10, 10, 10)  ;
+    padding: 8px;
+    background-color:rgb(197, 231, 205);
+    height: 50%;
+    width: 13%;
+    border-radius: 15px;
+  
+}
+.send button:hover{
+    background-color: green;
+}
